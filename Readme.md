@@ -5,7 +5,7 @@
 
  # **📦 Dataset**
    The dataset used is:
-   1. ### **loan\_data.csv**
+  ### **loan\_data.csv**
       This dataset contains:
 
 - Borrower financial information
@@ -17,7 +17,7 @@
 
  # **🔧 Preprocessing Settings**
    The following preprocessing steps were used throughout the project:
-   1. ### **🔹 One-Hot Encoding**
+### **🔹 One-Hot Encoding**
       Applied to the categorical column:
 
 - purpose → converted into 7 dummy variables\
@@ -42,11 +42,11 @@
    The model is built using **TensorFlow Keras Sequential API**.
     ### **Layers:**
 - **Input Layer**
-- **Dense(128, activation='relu')**
-- **BatchNormalization()**
 - **Dense(64, activation='relu')**
-- **Dropout(0.3)**
+- **BatchNormalization()**
 - **Dense(32, activation='relu')**
+- **Dropout(0.3)**
+- **Dense(16, activation='relu')**
 - **Dense(1, activation='sigmoid')**
   1. ### **Model Summary**
 
@@ -77,5 +77,6 @@
 - **Matplotlib / Seaborn**
 - **Google Colab**
 # **🙌 Thanks**
+
 
 
